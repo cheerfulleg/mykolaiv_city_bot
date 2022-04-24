@@ -11,4 +11,4 @@
 - Enter docker shell ```docker exec -it mongo bash```
 - Enter mongo shell ```mongo```
 - Enter database ```user your_database_name```
-- Update use with admin rights ```db.users.update({"first_name": "Your_Name"}, { $set: {"is_admin": true}})```
+- Update user with admin rights ```db.users.update({"first_name": "Your_Name"}, { $set: {"is_admin": true}})```
